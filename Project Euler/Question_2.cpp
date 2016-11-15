@@ -1,3 +1,5 @@
+#include "Question_2.h"
+
 int Question_2 () {
 	int sum = 2;
 	int a = 1;

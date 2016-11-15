@@ -23,11 +23,15 @@
     <ClCompile Include="Question_2.cpp" />
     <ClCompile Include="Question_3.cpp" />
     <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Question_4.cpp" />
+    <ClCompile Include="Question_5.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Question_5.h" />
     <ClInclude Include="Question_3.h" />
     <ClInclude Include="Question_2.h" />
     <ClInclude Include="Question_1.h" />
+    <ClInclude Include="Question_4.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D9DF15A3-2A12-4129-B66D-EA475EF8AD19}</ProjectGuid>

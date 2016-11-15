@@ -1,3 +1,5 @@
+#include "Question_1.h"
+
 int Question_1 () {
 	int sum = 0;
 	for (int i = 3; i < 1000; i++) {

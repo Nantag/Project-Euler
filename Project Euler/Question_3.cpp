@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "Question_3.h"
 
 int Question_3 () {
 	long long int target = 600851475143;

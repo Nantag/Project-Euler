@@ -2,6 +2,8 @@
 #include "Question_1.h"
 #include "Question_2.h"
 #include "Question_3.h"
+#include "Question_4.h"
+#include "Question_5.h"
 
 int main () {
 	char input;
@@ -21,6 +23,12 @@ int main () {
 				break;
 			case 3:
 				answer = Question_3 ();
+				break;
+			case 4:
+				answer = Question_4 ();
+				break;
+			case 5:
+				answer = Question_5 ();
 				break;
 		}
 
