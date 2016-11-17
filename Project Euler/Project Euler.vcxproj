@@ -25,6 +25,7 @@
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="Question_4.cpp" />
     <ClCompile Include="Question_5.cpp" />
+    <ClCompile Include="Question_6.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Question_5.h" />
@@ -32,6 +33,7 @@
     <ClInclude Include="Question_2.h" />
     <ClInclude Include="Question_1.h" />
     <ClInclude Include="Question_4.h" />
+    <ClInclude Include="Question_6.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D9DF15A3-2A12-4129-B66D-EA475EF8AD19}</ProjectGuid>
