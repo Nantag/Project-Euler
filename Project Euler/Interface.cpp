@@ -5,6 +5,8 @@
 #include "Question_4.h"
 #include "Question_5.h"
 #include "Question_6.h"
+#include "Question_7.h"
+
 
 int main () {
 	char input;
@@ -33,6 +35,9 @@ int main () {
 				break;
 			case 6:
 				answer = Question_6 ();
+				break;
+			case 7:
+				answer = Question_7 ();
 				break;
 		}
 
