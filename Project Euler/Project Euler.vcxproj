@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Question_1.cpp" />
+    <ClCompile Include="Question_10.cpp" />
     <ClCompile Include="Question_2.cpp" />
     <ClCompile Include="Question_3.cpp" />
     <ClCompile Include="Interface.cpp" />
@@ -31,6 +32,7 @@
     <ClCompile Include="Question_9.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Question_10.h" />
     <ClInclude Include="Question_5.h" />
     <ClInclude Include="Question_3.h" />
     <ClInclude Include="Question_2.h" />

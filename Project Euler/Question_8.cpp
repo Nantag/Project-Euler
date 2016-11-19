@@ -28,6 +28,7 @@ long long Question_8 () {
 	}
 
 	// Throws an error in Visual Studios debugger. As far as I can tell, this is Visual Studios being stupid.
+	// Doesn't happen anywhere else. No idea what the root cause is, as the code itself does not seem incorrect.
 	free (arr);
 
 	return gsf;

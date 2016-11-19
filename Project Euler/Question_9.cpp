@@ -12,5 +12,6 @@ int Question_9 () {
 	}
 
 	// This algorithm will not return non-primitive pythagorian triples.
-	return 0;
+	return -1;
+
 }
