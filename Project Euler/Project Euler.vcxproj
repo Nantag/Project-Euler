@@ -27,6 +27,7 @@
     <ClCompile Include="Question_5.cpp" />
     <ClCompile Include="Question_6.cpp" />
     <ClCompile Include="Question_7.cpp" />
+    <ClCompile Include="Question_8.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Question_5.h" />
@@ -36,6 +37,10 @@
     <ClInclude Include="Question_4.h" />
     <ClInclude Include="Question_6.h" />
     <ClInclude Include="Question_7.h" />
+    <ClInclude Include="Question_8.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Question_8_Number.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{D9DF15A3-2A12-4129-B66D-EA475EF8AD19}</ProjectGuid>

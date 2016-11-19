@@ -6,13 +6,13 @@
 #include "Question_5.h"
 #include "Question_6.h"
 #include "Question_7.h"
-
+#include "Question_8.h"
 
 int main () {
 	char input;
 	while (1) {
 		int question = 0;
-		long answer = 0;
+		long long answer = 0;
 		printf ("Which question would you like to run? Please input this as the question's Euler Project number.\n");
 		scanf_s ("%d", &question);
 
@@ -39,9 +39,12 @@ int main () {
 			case 7:
 				answer = Question_7 ();
 				break;
+			case 8:
+				answer = Question_8 ();
+				break;
 		}
 
-		printf ("The result of question %d is %d.\n", question, answer);
+		printf ("The result of question %d is %I64d.\n", question, answer);
 		printf ("Would you like to run another question? (Y/N)\n");
 		scanf_s (" %c", &input, 1);
 		if (input == 'N' || input == 'n') {
