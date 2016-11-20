@@ -3,17 +3,21 @@
 #include <math.h>
 
 long long Question_10 () {
+
+	int PRIMES_BELOW = 2000000;
+
 	long long sum = 0;
-	int bound = 2000000;
-	int* Sieve_List = (int *) calloc (bound, sizeof (int));
-	for (int i = 2; i < bound; i++) {
+	int* Sieve_List = (int *) calloc (PRIMES_BELOW, sizeof (int));
+
+	for (int i = 2; i < PRIMES_BELOW; i++) {
 		if (!Sieve_List[i]) {
-			for (int j = i; j < bound; j += i) {
+			for (int j = i; j < PRIMES_BELOW; j += i) {
 				Sieve_List[j]++;
 			}
 			sum += i;
 		}
 	}
+
 	free (Sieve_List);
 	return sum;
 }

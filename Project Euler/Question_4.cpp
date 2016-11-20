@@ -1,9 +1,14 @@
 #include "Question_4.h"
 
 int Question_4 () {
+
+	int PALINDROME_MINIMUM = 100;
+	int PALINDROME_MAXIMUM = 999;
+	
+
 	int largest = 0;
-	for (int i = 999; i > 100; i--) {
-		for (int j = 999; j > 100; j--) {
+	for (int i = PALINDROME_MAXIMUM; i > PALINDROME_MINIMUM; i--) {
+		for (int j = PALINDROME_MAXIMUM; j > PALINDROME_MINIMUM; j--) {
 			int mult = i * j;
 			int mult_cp = mult;
 			int reverse = 0;

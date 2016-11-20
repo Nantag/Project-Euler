@@ -4,9 +4,13 @@
 
 long long Question_8 () {
 
+	int TARGET_ADJACENTS = 13;
+	int NUMBER_SIZE = 1000;
+	int NUMBER_MAXIMUM_TARGET = NUMBER_SIZE - TARGET_ADJACENTS;
+
 	FILE* f;
 	fopen_s (&f, "./Question_8_Number.txt", "r");
-	int* arr = (int*) malloc (1000 * sizeof (int));
+	int* arr = (int*) malloc (NUMBER_SIZE * sizeof (int));
 	char fc;
 	for (int i = 0; !feof (f); i++) {
 		fscanf_s (f, "%c", &fc);
@@ -17,9 +21,9 @@ long long Question_8 () {
 
 	long long gsf = 0;
 
-	for (int i = 0; i < 987; i++) {
+	for (int i = 0; i < NUMBER_MAXIMUM_TARGET; i++) {
 		long long target = 1;
-		for (int j = i; j < i + 13; j++) {
+		for (int j = i; j < i + TARGET_ADJACENTS; j++) {
 			target *= arr[j];
 		}
 		if (target > gsf) {

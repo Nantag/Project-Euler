@@ -13,23 +13,14 @@ bool IsPrime (int target) {
 
 int Question_5 () {
 
-	/* Simple brute force solution
-	for (int i = 20;; i += 20) {
-		for (int j = 19; j > 1; j--) {
-			if (i % j) {
-				break;
-			} else if (j == 2) {
-				return i;
-			}
-		}
-	} */
+	int TARGET_MAXIMUM = 20;
 
 	// Algorithm detailed in header file.
 	long sum = 1;
-	for (int i = 2; i < 20; i++) {
+	for (int i = 2; i < TARGET_MAXIMUM; i++) {
 		if (IsPrime (i)) {
 			int j = i;
-			while (j <= 20) {
+			while (j <= TARGET_MAXIMUM) {
 				sum *= i;
 				j *= i;
 			}

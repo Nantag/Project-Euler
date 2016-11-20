@@ -2,6 +2,9 @@
 #include <math.h>
 #include "Question_6.h"
 
-int Question_6() {
-	return (pow((100 * (100 - 1) / 2), 2) - ((100 * (100 + 1) * (100 * 100 + 1)) / 6));
+long long Question_6() {
+
+	int TARGET_MAXIMUM = 100;
+
+	return (long long) (pow (((TARGET_MAXIMUM * (TARGET_MAXIMUM + 1)) / 2), 2) - ((TARGET_MAXIMUM * (TARGET_MAXIMUM + 1) * ((2 * TARGET_MAXIMUM) + 1)) / 6));
 }
