@@ -31,8 +31,10 @@
     <ClCompile Include="Question_7.cpp" />
     <ClCompile Include="Question_8.cpp" />
     <ClCompile Include="Question_9.cpp" />
+    <ClCompile Include="Question_12.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Question_12.h" />
     <ClInclude Include="Question_10.h" />
     <ClInclude Include="Question_11.h" />
     <ClInclude Include="Question_5.h" />

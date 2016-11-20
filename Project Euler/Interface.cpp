@@ -10,6 +10,7 @@
 #include "Question_9.h"
 #include "Question_10.h"
 #include "Question_11.h"
+#include "Question_12.h";
 
 
 int main () {
@@ -54,6 +55,9 @@ int main () {
 				break;
 			case 11:
 				answer = Question_11 ();
+				break;
+			case 12:
+				answer = Question_12 ();
 				break;
 		}
 
