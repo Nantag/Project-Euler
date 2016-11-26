@@ -1,5 +1,5 @@
-#include <stdlib.h>
-#include <math.h>
+using namespace std;
+#include <cmath>
 #include "Question_6.h"
 
 long long Question_6() {

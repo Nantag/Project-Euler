@@ -1,6 +1,7 @@
+using namespace std;
+#include <vector>
+#include <cmath>
 #include "Question_7.h"
-#include <stdlib.h>
-#include <math.h>
 
 int Question_7 () {
 
@@ -8,7 +9,7 @@ int Question_7 () {
 
 	int Prime_Index = 0;
 	int bound = (int) (TARGET_PRIME * (log (TARGET_PRIME) + log (log (TARGET_PRIME))));
-	int* Sieve_List = (int *) calloc (bound, sizeof (int));
+	vector<int> Sieve_List (TARGET_PRIME);
 	int i = 1;
 	while (Prime_Index < TARGET_PRIME) {
 		i++;
@@ -19,6 +20,5 @@ int Question_7 () {
 			Prime_Index++;
 		}
 	}
-	free (Sieve_List);
 	return i;
 }

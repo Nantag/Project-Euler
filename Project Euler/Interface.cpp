@@ -1,4 +1,5 @@
-#include <stdio.h>
+using namespace std;
+#include <iostream>
 #include "Question_1.h"
 #include "Question_2.h"
 #include "Question_3.h"
@@ -11,16 +12,17 @@
 #include "Question_10.h"
 #include "Question_11.h"
 #include "Question_12.h"
+#include "Question_13.h"
 #include "Question_14.h"
 
 int main () {
-	char input;
+	int question;
+	unsigned long long answer;
 	while (1) {
-		int question = 0;
-		long long answer = 0;
-		printf ("Which question would you like to run? Please input this as the question's Euler Project number.\n");
-		scanf_s ("%d", &question);
-
+		cout << "Which question would you like to run? Please input this as the question's Euler Project number. To exit, type -1." << endl;
+		cin >> question;
+		if (question == -1) break;
+		
 		// All function calls goes into the switch statement.
 		switch (question) {
 			case 1:
@@ -59,17 +61,17 @@ int main () {
 			case 12:
 				answer = Question_12 ();
 				break;
+			case 13:
+				answer = Question_13 ();
+				break;
 			case 14:
 				answer = Question_14 ();
 				break;
+			default:
+				answer = 0;
+				break;
 		}
-
-		printf ("The result of question %d is %I64d.\n", question, answer);
-		printf ("Would you like to run another question? (Y/N)\n");
-		scanf_s (" %c", &input, 1);
-		if (input == 'N' || input == 'n') {
-			break;
-		}
+		cout << "The result of question " << question << " is " << answer << endl;
 	}
-	printf ("Thank you. This program will now exit.\n");
+	cout << "Thank you. This program will now exit." << endl;
 }

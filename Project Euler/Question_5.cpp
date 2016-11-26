@@ -1,9 +1,9 @@
-#include <stdlib.h>
-#include <math.h>
+using namespace std;
+#include <cmath>
 #include "Question_5.h"
 
 bool IsPrime (int target) {
-	for (int i = 2; i <= sqrt (target); i++) {
+	for (int i = 2; i <= sqrt(target); i++) {
 		if (!(target % i)) {
 			return 0;
 		}
