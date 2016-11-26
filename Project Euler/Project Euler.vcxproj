@@ -35,6 +35,7 @@
     <ClCompile Include="Question_12.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="InfInt.h" />
     <ClInclude Include="Question_12.h" />
     <ClInclude Include="Question_10.h" />
     <ClInclude Include="Question_11.h" />

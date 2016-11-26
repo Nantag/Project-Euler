@@ -98,6 +98,9 @@
     <ClInclude Include="Question_14.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="InfInt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Question_8_Number.txt">
