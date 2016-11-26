@@ -16,7 +16,7 @@ int Question_11 () {
 	for (int i = 0; i < GRID_HEIGHT; i++) {
 		arr[i] = (int*) malloc (GRID_WIDTH * sizeof (int));
 		for (int j = 0, k = 0; j < GRID_WIDTH; j++) {
-			fscanf_s (f, "%d", &k);
+			fscanf_s (f, "%d", &k); 
 			arr[i][j] = k;
 		}
 	}
