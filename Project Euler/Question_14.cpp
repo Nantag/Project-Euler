@@ -18,10 +18,8 @@ long long Collatz (long long target, int* seen_array, int MAX_NUMBER) {
 	if (target < MAX_NUMBER) {
 		seen_array[target] = (1 + Collatz (new_target, seen_array, MAX_NUMBER));
 		return seen_array[target];
-	} else {
-		return (1 + Collatz (new_target, seen_array, MAX_NUMBER));
 	}
-
+	return (1 + Collatz (new_target, seen_array, MAX_NUMBER));
 }
 
 int Question_14 () {
