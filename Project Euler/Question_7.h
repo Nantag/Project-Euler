@@ -1,7 +1,12 @@
 #pragma once
 
-// Finds the 10,001rst prime number.
-int Question_7 ();
+
+namespace Question_7 {
+
+	// Finds the 10,001rst prime number.
+	int Answer ();
+
+}
 
 // NOTES:
 //		Algorithm used was the Sieve of Eratosthenes, an ancient, relatively fast algorithm.

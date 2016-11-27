@@ -1,7 +1,11 @@
 #pragma once
 
-// Finds the number of possible paths through a lattice grid.
-unsigned long long Question_15 ();
+namespace Question_15 {
+
+	// Finds the number of possible paths through a lattice grid.
+	unsigned long long Answer ();
+
+}
 
 // There are multiple ways to solve this problem.
 // Solution 1 (Recursive Brute Force):

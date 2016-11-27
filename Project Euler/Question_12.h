@@ -1,10 +1,14 @@
 #pragma once
 
-// Finds the number of divisors a number has.
-int Question_12_Count_Divisors (int target);
+namespace Question_12 {
 
-// Finds the first triangular number with over 500 divisors.
-int Question_12 ();
+// Finds the number of divisors a number has.
+	int Count_Divisors (int target);
+
+	// Finds the first triangular number with over 500 divisors.
+	int Answer ();
+
+}
 
 // MATHEMATICAL SOLUTION:
 //		We first note that the nth triangular number has the closed form ((n) * (n+1)) / 2, by split addition.

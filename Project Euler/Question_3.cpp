@@ -1,6 +1,6 @@
 #include "Question_3.h"
 
-int Question_3 () {
+int Question_3::Answer () {
 
 	const long long TARGET_NUMBER = 600851475143;
 

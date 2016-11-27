@@ -2,7 +2,7 @@ using namespace std;
 #include <vector>
 #include "Question_15.h"
 
-unsigned long long Question_15 () {
+unsigned long long Question_15::Answer () {
 
 	const int GRID_SIZE = 20;
 

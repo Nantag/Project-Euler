@@ -3,7 +3,7 @@ using namespace std;
 #include <cmath>
 #include "Question_7.h"
 
-int Question_7 () {
+int Question_7::Answer () {
 
 	const int TARGET_PRIME = 10001;
 

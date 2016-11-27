@@ -2,7 +2,7 @@ using namespace std;
 #include <cmath>
 #include "Question_6.h"
 
-long long Question_6() {
+long long Question_6::Answer () {
 
 	const int TARGET_MAXIMUM = 100;
 

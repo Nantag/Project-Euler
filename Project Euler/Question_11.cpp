@@ -3,7 +3,7 @@ using namespace std;
 #include <fstream>
 #include <vector>
 
-int Question_11 () {
+int Question_11::Answer () {
 
 	const int GRID_WIDTH = 20;
 	const int GRID_HEIGHT = 20;

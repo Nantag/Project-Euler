@@ -2,7 +2,7 @@ using namespace std;
 #include "Question_9.h"
 #include <cmath>
 
-int Question_9 () {
+int Question_9::Answer () {
 
 	// For most values, the function will return an error value.
 	const int TARGET_SUM = 1000;

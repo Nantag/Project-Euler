@@ -1,7 +1,16 @@
 #pragma once
 
-// Finds the sum of the digits of 2^1000.
-int Question_16 ();
+class BigInteger;
+
+namespace Question_16 {
+
+	// Finds the number of digits in a BigInteger.
+	int Count_Digits (BigInteger target);
+
+	// Finds the sum of the digits of 2^1000.
+	int Answer ();
+
+}
 
 // Solution requires use of integers larger than 64 bit. Consideration was taken upon creating own library.
 // Decided upon using third-party library for time. 

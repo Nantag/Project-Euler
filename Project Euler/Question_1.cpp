@@ -1,6 +1,6 @@
 #include "Question_1.h"
 
-int Question_1 () {
+int Question_1::Answer () {
 
 	const int SUM_UNDER = 1000;
 	const int FIRST_NUMBER = 3;

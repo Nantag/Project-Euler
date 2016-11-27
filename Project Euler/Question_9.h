@@ -1,7 +1,11 @@
 #pragma once
 
-// Returns abc such that a + b + c = 1000 and a^2 + b^2 = c^2.
-int Question_9 ();
+namespace Question_9 {
+
+	// Returns abc such that a + b + c = 1000 and a^2 + b^2 = c^2.
+	int Answer ();
+
+}
 
 
 // MATHEMATICAL SOLUTION:

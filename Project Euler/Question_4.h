@@ -1,4 +1,8 @@
 #pragma once
 
-// Finds the largest palindrome product of two 3-digit numbers.
-int Question_4 ();
+namespace Question_4 {
+
+	// Finds the largest palindrome product of two 3-digit numbers.
+	int Answer ();
+
+}

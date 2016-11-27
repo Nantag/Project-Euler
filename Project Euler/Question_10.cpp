@@ -3,7 +3,7 @@ using namespace std;
 #include <cmath>
 #include <vector>
 
-long long Question_10 () {
+long long Question_10::Answer () {
 
 	const int PRIMES_BELOW = 2000000;
 

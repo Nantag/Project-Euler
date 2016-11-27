@@ -4,7 +4,7 @@ using namespace std;
 #include <fstream>
 #include "Question_8.h"
 
-long long Question_8 () {
+long long Question_8::Answer () {
 
 	const int TARGET_ADJACENTS = 13;
 	const int NUMBER_SIZE = 1000;

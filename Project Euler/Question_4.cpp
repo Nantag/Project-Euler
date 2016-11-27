@@ -1,6 +1,6 @@
 #include "Question_4.h"
 
-int Question_4 () {
+int Question_4::Answer () {
 
 	const int PALINDROME_MINIMUM = 100;
 	const int PALINDROME_MAXIMUM = 999;
