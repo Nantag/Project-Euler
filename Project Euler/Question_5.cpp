@@ -13,7 +13,7 @@ bool IsPrime (int target) {
 
 int Question_5 () {
 
-	int TARGET_MAXIMUM = 20;
+	const int TARGET_MAXIMUM = 20;
 
 	// Algorithm detailed in header file.
 	long sum = 1;

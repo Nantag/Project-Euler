@@ -2,10 +2,10 @@
 
 int Question_1 () {
 
-	int SUM_UNDER = 1000;
-	int FIRST_NUMBER = 3;
-	int SECOND_NUMBER = 5;
-	int PRODUCT_NUMBER = FIRST_NUMBER * SECOND_NUMBER;
+	const int SUM_UNDER = 1000;
+	const int FIRST_NUMBER = 3;
+	const int SECOND_NUMBER = 5;
+	const int PRODUCT_NUMBER = FIRST_NUMBER * SECOND_NUMBER;
 
 	// Optimal summation technique.
 	int sum = 0;

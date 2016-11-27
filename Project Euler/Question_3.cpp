@@ -2,12 +2,13 @@
 
 int Question_3 () {
 
-	long long int TARGET_NUMBER = 600851475143;
+	const long long TARGET_NUMBER = 600851475143;
 
+	long long target = TARGET_NUMBER;
 	int prime = 2;
-	while (TARGET_NUMBER > 1) {
-		if (!(TARGET_NUMBER % prime)) {
-			TARGET_NUMBER /= prime;
+	while (target > 1) {
+		if (!(target % prime)) {
+			target /= prime;
 		} else {
 			prime++;
 		}

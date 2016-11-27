@@ -2,7 +2,7 @@
 
 int Question_2 () {
 
-	int SUM_UNDER = 4000000;
+	const int SUM_UNDER = 4000000;
 
 	int sum = 2;
 	int a = 1;

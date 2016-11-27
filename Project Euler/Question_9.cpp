@@ -5,8 +5,8 @@ using namespace std;
 int Question_9 () {
 
 	// For most values, the function will return an error value.
-	int TARGET_SUM = 1000;
-	int HALF_TARGET = TARGET_SUM / 2;
+	const int TARGET_SUM = 1000;
+	const int HALF_TARGET = TARGET_SUM / 2;
 	
 	for (int m = 1; m < sqrt(HALF_TARGET); m++) {
 		for (int n = 1; n < m; n++) {

@@ -5,7 +5,7 @@ using namespace std;
 
 long long Question_10 () {
 
-	int PRIMES_BELOW = 2000000;
+	const int PRIMES_BELOW = 2000000;
 
 	long long sum = 0;
 	vector<int> Sieve_List (PRIMES_BELOW);

@@ -24,6 +24,7 @@
     <ClCompile Include="Question_11.cpp" />
     <ClCompile Include="Question_13.cpp" />
     <ClCompile Include="Question_14.cpp" />
+    <ClCompile Include="Question_15.cpp" />
     <ClCompile Include="Question_2.cpp" />
     <ClCompile Include="Question_3.cpp" />
     <ClCompile Include="Interface.cpp" />
@@ -41,6 +42,7 @@
     <ClInclude Include="Question_10.h" />
     <ClInclude Include="Question_11.h" />
     <ClInclude Include="Question_14.h" />
+    <ClInclude Include="Question_15.h" />
     <ClInclude Include="Question_5.h" />
     <ClInclude Include="Question_3.h" />
     <ClInclude Include="Question_2.h" />

@@ -6,9 +6,9 @@ using namespace std;
 
 long long Question_8 () {
 
-	int TARGET_ADJACENTS = 13;
-	int NUMBER_SIZE = 1000;
-	int NUMBER_MAXIMUM_TARGET = NUMBER_SIZE - TARGET_ADJACENTS;
+	const int TARGET_ADJACENTS = 13;
+	const int NUMBER_SIZE = 1000;
+	const int NUMBER_MAXIMUM_TARGET = NUMBER_SIZE - TARGET_ADJACENTS;
 
 	ifstream file;
 	file.open("./Question_8_Number.txt");

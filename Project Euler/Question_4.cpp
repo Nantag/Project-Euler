@@ -2,8 +2,8 @@
 
 int Question_4 () {
 
-	int PALINDROME_MINIMUM = 100;
-	int PALINDROME_MAXIMUM = 999;
+	const int PALINDROME_MINIMUM = 100;
+	const int PALINDROME_MAXIMUM = 999;
 	
 
 	int largest = 0;

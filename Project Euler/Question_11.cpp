@@ -5,11 +5,11 @@ using namespace std;
 
 int Question_11 () {
 
-	int GRID_WIDTH = 20;
-	int GRID_HEIGHT = 20;
-	int ADJACENT_NUMBERS = 4;
-	int EDGE_ROW_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
-	int EDGE_COLUMN_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
+	const int GRID_WIDTH = 20;
+	const int GRID_HEIGHT = 20;
+	const int ADJACENT_NUMBERS = 4;
+	const int EDGE_ROW_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
+	const int EDGE_COLUMN_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
 
 	ifstream file;
 	file.open ("./Question_11_Numbers.txt");

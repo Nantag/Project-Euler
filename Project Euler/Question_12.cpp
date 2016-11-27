@@ -17,7 +17,7 @@ int Count_Divisors (int target) {
 
 int Question_12 () {
 
-	int MINIMUM_DIVISORS_WANTED = 501;
+	const int MINIMUM_DIVISORS_WANTED = 501;
 
 	for (int n = 1;; n++) {
 

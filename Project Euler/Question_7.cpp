@@ -5,7 +5,7 @@ using namespace std;
 
 int Question_7 () {
 
-	int TARGET_PRIME = 10001;
+	const int TARGET_PRIME = 10001;
 
 	int Prime_Index = 0;
 	int bound = (int) (TARGET_PRIME * (log (TARGET_PRIME) + log (log (TARGET_PRIME))));

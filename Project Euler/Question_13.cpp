@@ -15,7 +15,7 @@ int Count_Digits (unsigned long long target) {
 
 long long Question_13 () {
 
-	int FIRST_NUMBERS = 10;
+	const int FIRST_NUMBERS = 10;
 
 	ifstream file;
 	file.open ("./Question_13_Numbers.txt");
