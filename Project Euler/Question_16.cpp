@@ -3,7 +3,7 @@ using namespace std;
 #include <cmath>
 #include "BigIntegerLibrary.hh"
 
-int Count_Digits (BigInteger& target) {
+int Question_16_Count_Digits (BigInteger target) {
 	int count = 0;
 	while (target != 0) {
 		target /= 10;
@@ -23,7 +23,15 @@ int Question_16 () {
 		sum *= POWER_NUMBER;
 	}
 
-	int digit_sum = 1;
+	BigInteger digit_sum = 0;
+	int digits = Question_16_Count_Digits (sum);
 
-	return digit_sum;
+	while (digits > 0) {
+		digit_sum += sum % 10;
+		sum /= 10;
+		cout << digit_sum << endl;
+		digits--;
+	}
+
+	return digit_sum.toInt();
 }
