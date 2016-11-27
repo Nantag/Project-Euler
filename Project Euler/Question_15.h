@@ -13,7 +13,7 @@ unsigned long long Question_15 ();
 //		The paths can be expressed as the center column of Pascal's triangle.
 //		We can rationalize this by visualizing the grid as a diamond, with the start point at the top.
 //		We notice that the number of paths that each grid point has is expressable as the sum of the paths to
-//		the node above it (except for the start node, which has one path to itself).
+//		the node above it (except for the start node, which has one path to itself, facceciously).
 //		So if we write out the center column of Pascal's triangle, we get the result as the 20th entry.
 // Solution 3 (Binomial Coefficient):
 //		The center columns of Pascal's Triangle are expressable as the closed form equation:

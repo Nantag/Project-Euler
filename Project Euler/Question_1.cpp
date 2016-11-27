@@ -7,7 +7,7 @@ int Question_1 () {
 	const int SECOND_NUMBER = 5;
 	const int PRODUCT_NUMBER = FIRST_NUMBER * SECOND_NUMBER;
 
-	// Optimal summation technique.
+	// Adds all multiple of 3 and 5, then subtracts all multiples of 15.
 	int sum = 0;
 	for (int i = FIRST_NUMBER; i < SUM_UNDER; i += FIRST_NUMBER) {
 		sum += i;
@@ -18,5 +18,6 @@ int Question_1 () {
 	for (int i = PRODUCT_NUMBER; i < SUM_UNDER; i += PRODUCT_NUMBER) {
 		sum -= i;
 	}
+
 	return sum;
 }

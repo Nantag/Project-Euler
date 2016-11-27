@@ -4,6 +4,7 @@ int Question_3 () {
 
 	const long long TARGET_NUMBER = 600851475143;
 
+	// Uses unique factorization theorem to determine number's prime factors. 
 	long long target = TARGET_NUMBER;
 	int prime = 2;
 	while (target > 1) {
@@ -13,5 +14,6 @@ int Question_3 () {
 			prime++;
 		}
 	}
+
 	return prime;
 }

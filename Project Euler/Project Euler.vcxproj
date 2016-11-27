@@ -19,12 +19,18 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BigInteger.cc" />
+    <ClCompile Include="BigIntegerAlgorithms.cc" />
+    <ClCompile Include="BigIntegerUtils.cc" />
+    <ClCompile Include="BigUnsigned.cc" />
+    <ClCompile Include="BigUnsignedInABase.cc" />
     <ClCompile Include="Question_1.cpp" />
     <ClCompile Include="Question_10.cpp" />
     <ClCompile Include="Question_11.cpp" />
     <ClCompile Include="Question_13.cpp" />
     <ClCompile Include="Question_14.cpp" />
     <ClCompile Include="Question_15.cpp" />
+    <ClCompile Include="Question_16.cpp" />
     <ClCompile Include="Question_2.cpp" />
     <ClCompile Include="Question_3.cpp" />
     <ClCompile Include="Interface.cpp" />
@@ -37,12 +43,20 @@
     <ClCompile Include="Question_12.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BigInteger.hh" />
+    <ClInclude Include="BigIntegerAlgorithms.hh" />
+    <ClInclude Include="BigIntegerLibrary.hh" />
+    <ClInclude Include="BigIntegerUtils.hh" />
+    <ClInclude Include="BigUnsigned.hh" />
+    <ClInclude Include="BigUnsignedInABase.hh" />
+    <ClInclude Include="NumberlikeArray.hh" />
     <ClInclude Include="Question_13.h" />
     <ClInclude Include="Question_12.h" />
     <ClInclude Include="Question_10.h" />
     <ClInclude Include="Question_11.h" />
     <ClInclude Include="Question_14.h" />
     <ClInclude Include="Question_15.h" />
+    <ClInclude Include="Question_16.h" />
     <ClInclude Include="Question_5.h" />
     <ClInclude Include="Question_3.h" />
     <ClInclude Include="Question_2.h" />

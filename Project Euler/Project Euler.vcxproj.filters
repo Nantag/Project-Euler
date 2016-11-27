@@ -63,6 +63,24 @@
     <ClCompile Include="Question_15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="BigInteger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigIntegerAlgorithms.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigIntegerUtils.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigUnsigned.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BigUnsignedInABase.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Question_16.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Question_1.h">
@@ -108,6 +126,30 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Question_15.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigUnsignedInABase.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigInteger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigIntegerAlgorithms.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigIntegerLibrary.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigIntegerUtils.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BigUnsigned.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberlikeArray.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Question_16.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

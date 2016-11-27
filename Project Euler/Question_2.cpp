@@ -4,6 +4,7 @@ int Question_2 () {
 
 	const int SUM_UNDER = 4000000;
 
+	// Brute-forces through the Fibonacci sequence.
 	int sum = 2;
 	int a = 1;
 	int b = 2;
@@ -14,5 +15,6 @@ int Question_2 () {
 			sum += b;
 		}
 	}
+
 	return sum;
 }

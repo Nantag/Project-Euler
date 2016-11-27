@@ -7,7 +7,8 @@ int Question_9 () {
 	// For most values, the function will return an error value.
 	const int TARGET_SUM = 1000;
 	const int HALF_TARGET = TARGET_SUM / 2;
-	
+
+	// See header for formula.
 	for (int m = 1; m < sqrt(HALF_TARGET); m++) {
 		for (int n = 1; n < m; n++) {
 			if ((m * (m + n)) == HALF_TARGET) {
@@ -16,7 +17,5 @@ int Question_9 () {
 		}
 	}
 
-	// This algorithm will not return non-primitive pythagorian triples.
 	return -1;
-
 }

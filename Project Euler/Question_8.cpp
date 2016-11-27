@@ -10,6 +10,7 @@ long long Question_8 () {
 	const int NUMBER_SIZE = 1000;
 	const int NUMBER_MAXIMUM_TARGET = NUMBER_SIZE - TARGET_ADJACENTS;
 
+	// Reads numbers into an array.
 	ifstream file;
 	file.open("./Question_8_Number.txt");
 	vector<int> arr(NUMBER_SIZE);
@@ -19,9 +20,8 @@ long long Question_8 () {
 	}
 	file.close();
 
-
+	// Brute-forces through all sequences.
 	long long gsf = 0;
-
 	for (int i = 0; i < NUMBER_MAXIMUM_TARGET; i++) {
 		long long target = 1;
 		for (int j = i; j < i + TARGET_ADJACENTS; j++) {

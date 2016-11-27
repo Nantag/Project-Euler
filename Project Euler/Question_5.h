@@ -1,7 +1,7 @@
 #pragma once
 
 // Checks if a number is prime. Algorithm is non-optimal, but suffices.
-bool IsPrime (int target);
+bool Question_5_IsPrime (int target);
 
 // Finds the smallest positive number that is evenly divisible by all the numbers from 1 to 20.
 int Question_5 ();

@@ -5,7 +5,7 @@ int Question_4 () {
 	const int PALINDROME_MINIMUM = 100;
 	const int PALINDROME_MAXIMUM = 999;
 	
-
+	// Brute-forces through all possible numbers.
 	int largest = 0;
 	for (int i = PALINDROME_MAXIMUM; i > PALINDROME_MINIMUM; i--) {
 		for (int j = PALINDROME_MAXIMUM; j > PALINDROME_MINIMUM; j--) {
@@ -21,5 +21,6 @@ int Question_4 () {
 			}
 		}
 	}
+
 	return largest;
 }

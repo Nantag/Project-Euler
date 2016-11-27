@@ -11,10 +11,10 @@ int Question_11 () {
 	const int EDGE_ROW_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
 	const int EDGE_COLUMN_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
 
+	// Loads the grid  numbers into a vector.
 	ifstream file;
 	file.open ("./Question_11_Numbers.txt");
 	vector <vector <int>> arr (GRID_HEIGHT);
-
 	for (int i = 0; i < GRID_HEIGHT; i++) {
 		arr[i] = vector <int> (GRID_WIDTH);
 		for (int j = 0, k = 0; j < GRID_WIDTH; j++) {
@@ -22,9 +22,9 @@ int Question_11 () {
 			arr[i][j] = k;
 		}
 	}
-
 	file.close ();
 
+	// Brute-forces through all possible products.
 	int gsf = 0;
 	for (int i = 0; i < GRID_HEIGHT; i++) {
 		for (int j = 0; j < GRID_WIDTH; j++) {
