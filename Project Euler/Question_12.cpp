@@ -1,6 +1,6 @@
+using namespace std;
 #include "Question_12.h"
-#include <math.h>
-#include <stdio.h>
+#include <cmath>
 
 int Count_Divisors (int target) {
 	int target_divisors = 0;

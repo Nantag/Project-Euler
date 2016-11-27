@@ -1,6 +1,7 @@
+using namespace std;
 #include "Question_11.h"
-#include <stdio.h>
-#include <stdlib.h>
+#include <fstream>
+#include <vector>
 
 int Question_11 () {
 
@@ -10,17 +11,19 @@ int Question_11 () {
 	int EDGE_ROW_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
 	int EDGE_COLUMN_CHECK = GRID_WIDTH - ADJACENT_NUMBERS - 1;
 
-	FILE* f;
-	fopen_s (&f, "./Question_11_Numbers.txt", "r");
-	int** arr = (int**) malloc (GRID_HEIGHT * sizeof (int*));
+	ifstream file;
+	file.open ("./Question_11_Numbers.txt");
+	vector <vector <int>> arr (GRID_HEIGHT);
+
 	for (int i = 0; i < GRID_HEIGHT; i++) {
-		arr[i] = (int*) malloc (GRID_WIDTH * sizeof (int));
+		arr[i] = vector <int> (GRID_WIDTH);
 		for (int j = 0, k = 0; j < GRID_WIDTH; j++) {
-			fscanf_s (f, "%d", &k); 
+			file >> k;
 			arr[i][j] = k;
 		}
 	}
-	fclose (f);
+
+	file.close ();
 
 	int gsf = 0;
 	for (int i = 0; i < GRID_HEIGHT; i++) {
@@ -44,11 +47,6 @@ int Question_11 () {
 			}
 		}
 	}
-
-	for (int i = 0; i < GRID_HEIGHT; i++) {
-		free (arr[i]);
-	}
-	free (arr);
 
 	return gsf;
 }

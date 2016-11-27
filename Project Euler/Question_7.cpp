@@ -9,7 +9,7 @@ int Question_7 () {
 
 	int Prime_Index = 0;
 	int bound = (int) (TARGET_PRIME * (log (TARGET_PRIME) + log (log (TARGET_PRIME))));
-	vector<int> Sieve_List (TARGET_PRIME);
+	vector<int> Sieve_List (bound);
 	int i = 1;
 	while (Prime_Index < TARGET_PRIME) {
 		i++;

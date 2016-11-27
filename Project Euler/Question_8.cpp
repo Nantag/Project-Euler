@@ -1,6 +1,8 @@
+using namespace std;
+#include <iostream>
+#include <vector>
+#include <fstream>
 #include "Question_8.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 long long Question_8 () {
 
@@ -8,15 +10,14 @@ long long Question_8 () {
 	int NUMBER_SIZE = 1000;
 	int NUMBER_MAXIMUM_TARGET = NUMBER_SIZE - TARGET_ADJACENTS;
 
-	FILE* f;
-	fopen_s (&f, "./Question_8_Number.txt", "r");
-	int* arr = (int*) malloc (NUMBER_SIZE * sizeof (int));
+	ifstream file;
+	file.open("./Question_8_Number.txt");
+	vector<int> arr(NUMBER_SIZE);
 	char fc;
-	for (int i = 0; !feof (f); i++) {
-		fscanf_s (f, "%c", &fc);
+	for (int i = 0; file.get(fc); i++) {
 		arr[i] = (int) fc - 48;
 	}
-	fclose (f);
+	file.close();
 
 
 	long long gsf = 0;
@@ -30,10 +31,6 @@ long long Question_8 () {
 			gsf = target;
 		}
 	}
-
-	// Throws an error in Visual Studios debugger. As far as I can tell, this is Visual Studios being stupid.
-	// Doesn't happen anywhere else. No idea what the root cause is, as the code itself does not seem incorrect.
-	free (arr);
 
 	return gsf;
 }

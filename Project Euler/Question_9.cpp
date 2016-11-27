@@ -1,5 +1,6 @@
+using namespace std;
 #include "Question_9.h"
-#include <math.h>
+#include <cmath>
 
 int Question_9 () {
 

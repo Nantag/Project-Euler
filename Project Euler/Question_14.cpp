@@ -1,7 +1,8 @@
-#include <stdlib.h>
+using namespace std;
+#include <vector>
 #include "Question_14.h"
 
-long long Collatz (long long target, int* seen_array, int MAX_NUMBER) {
+long long Collatz (long long target, vector<int>& seen_array, int MAX_NUMBER) {
 
 	long long new_target = target;
 
@@ -26,7 +27,7 @@ int Question_14 () {
 
 	int MAX_NUMBER = 1000000;
 
-	int* previously_seen = (int*) calloc (MAX_NUMBER, sizeof (int));
+	vector <int> previously_seen (MAX_NUMBER);
 	int gsf = 1;
 	int gsf_i = 1;
 
@@ -39,6 +40,5 @@ int Question_14 () {
 		}
 	}
 
-	free (previously_seen);
 	return gsf_i;
 }
