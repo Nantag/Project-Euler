@@ -84,6 +84,12 @@
     <ClCompile Include="Question_17.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Question_18.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Question_67.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Question_1.h">
@@ -158,6 +164,12 @@
     <ClInclude Include="Question_17.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Question_18.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Question_67.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Question_8_Number.txt">
@@ -167,6 +179,12 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="Question_13_Numbers.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Question_18_Triangle.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Question_67_Triangle.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

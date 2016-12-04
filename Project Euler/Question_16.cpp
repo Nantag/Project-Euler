@@ -1,6 +1,6 @@
 using namespace std;
 #include "Question_16.h"
-#include <cmath>
+#include <algorithm>
 #include "BigIntegerLibrary.hh"
 
 namespace Question_16 {
@@ -17,8 +17,8 @@ namespace Question_16 {
 
 	int Answer () {
 
-		int POWER_NUMBER = 2;
-		int TO_POWER = 1000;
+		const int POWER_NUMBER = 2;
+		const int TO_POWER = 1000;
 
 		BigInteger sum = POWER_NUMBER;
 		for (int i = 0; i < (TO_POWER - 1); i++) {

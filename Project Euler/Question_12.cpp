@@ -1,6 +1,6 @@
 using namespace std;
 #include "Question_12.h"
-#include <cmath>
+#include <algorithm>
 
 namespace Question_12 {
 

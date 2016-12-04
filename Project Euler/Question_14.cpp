@@ -29,7 +29,7 @@ namespace Question_14 {
 
 	long long Answer () {
 
-		int MAX_NUMBER = 1000000;
+		const int MAX_NUMBER = 1000000;
 
 		// Collatz recursively through all numbers below MAX_NUMBER.
 		vector <long long> previously_seen ((int) MAX_NUMBER);

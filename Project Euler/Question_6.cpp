@@ -1,5 +1,5 @@
 using namespace std;
-#include <cmath>
+#include <algorithm>
 #include "Question_6.h"
 
 long long Question_6::Answer () {
