@@ -23,3 +23,4 @@ namespace Question_16 {
 //		Let x represent 2^1000 in base 2, so b =2.
 //		So the answer can be represented as:
 //			Sigma (n=0 -> 1000) ((1 / (2 ^ n)) * ((x % (2 ^ (n + 1))) - x % (2 ^ n))
+//		Note that this can be solved using an array and binary divison, addition, and modulo.

@@ -17,6 +17,7 @@
 #include "Question_16.h"
 #include "Question_17.h"
 #include "Question_18.h"
+#include "Question_20.h"
 #include "Question_67.h"
 
 namespace Questions {
@@ -58,6 +59,8 @@ namespace Questions {
 				return Question_17::Answer ();
 			case 18:
 				return Question_18::Answer ();
+			case 20:
+				return Question_20::Answer ();
 			case 67:
 				return Question_67::Answer ();
 			default:

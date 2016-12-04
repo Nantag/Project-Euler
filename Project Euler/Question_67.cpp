@@ -11,6 +11,7 @@ namespace Question_67 {
 
 		const int TRIANGLE_ROWS = 100;
 
+		// Scans the triangle into a triangular dimmensional array.
 		ifstream file;
 		file.open ("./Question_67_Triangle.txt");
 		int input;
@@ -22,6 +23,7 @@ namespace Question_67 {
 		}
 		file.close ();
 
+		// Determines the maximum sum path dynamically, top down.
 		for (int i = (TRIANGLE_ROWS - 2); i >= 0; i--) {
 			int mem_row = i + 1;
 			for (int j = 0; j <= i; j++) {

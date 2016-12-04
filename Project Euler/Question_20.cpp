@@ -1,9 +1,6 @@
-using namespace std;
-#include "Question_16.h"
-#include <algorithm>
-#include "BigIntegerLibrary.hh"
+#include "Question_20.h"
 
-namespace Question_16 {
+namespace Question_20 {
 
 	int Count_Digits (BigInteger target) {
 		int count = 0;
@@ -14,16 +11,14 @@ namespace Question_16 {
 		return count;
 	}
 
-
 	int Answer () {
 
-		const int POWER_NUMBER = 2;
-		const int TO_POWER = 1000;
+		int FACTORIAL_NUMBER = 100;
 
-		// Determines 2^1000.
-		BigInteger sum = POWER_NUMBER;
-		for (int i = 0; i < (TO_POWER - 1); i++) {
-			sum *= POWER_NUMBER;
+		// Determines 100!.
+		BigInteger sum = 1;
+		for (int i = 1; i <= FACTORIAL_NUMBER; i++) {
+			sum *= i;
 		}
 
 		// Sums the digits.
