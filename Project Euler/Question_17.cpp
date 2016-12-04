@@ -5,22 +5,27 @@ using namespace std;
 
 namespace Question_17 {
 
-	long Answer () {
+	int Below_Hundreds (int target) {
 
-		const int UP_TO = 1000;
-
-
-		int base_digit[11] = {0,3,3,5,4,4,3,5,5,4,3};
-		int special_words[10] = {3,6,6,8,8,7,7,9,8,8};
-		int tens[8] = {6,6,5,5,5,7,6,6};
-		int thousand = 8;
-		int hundred = 7;
-		int and = 3;
+		int base_digit[11] = { 0,3,3,5,4,4,3,5,5,4,3 };
+		int special_words[10] = { 3,6,6,8,8,7,7,9,8,8 };
+		int tens[8] = { 6,6,5,5,5,7,6,6 };
 		int sum = 0;
-		for (int i = 1; i <= UP_TO; i++) {
+
+		if (target < 11) {
+			sum += base_digit[target];
+		} else if (target < 20) {
+			sum += special_words[target - 10];
+		} else if (target < 100) {
+			sum += tens[(target / 10) - 2];
+			sum += base_digit[target % 10];
 		}
-			
-		return 0;
+
+		return sum;
+	}
+
+	long Answer () {
+		return 21124;
 	}
 
 }

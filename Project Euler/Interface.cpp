@@ -16,6 +16,8 @@ using namespace std;
 #include "Question_14.h"
 #include "Question_15.h"
 #include "Question_16.h"
+#include "Question_17.h"
+
 
 int main () {
 	int question;
@@ -74,6 +76,9 @@ int main () {
 				break;
 			case 16:
 				answer = Question_16::Answer ();
+				break;
+			case 17:
+				answer = Question_17::Answer ();
 				break;
 			default:
 				answer = 0;
