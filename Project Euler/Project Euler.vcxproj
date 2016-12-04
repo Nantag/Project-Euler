@@ -24,6 +24,7 @@
     <ClCompile Include="BigIntegerUtils.cc" />
     <ClCompile Include="BigUnsigned.cc" />
     <ClCompile Include="BigUnsignedInABase.cc" />
+    <ClCompile Include="Questions.cpp" />
     <ClCompile Include="Question_1.cpp" />
     <ClCompile Include="Question_10.cpp" />
     <ClCompile Include="Question_11.cpp" />
@@ -53,6 +54,7 @@
     <ClInclude Include="BigUnsigned.hh" />
     <ClInclude Include="BigUnsignedInABase.hh" />
     <ClInclude Include="NumberlikeArray.hh" />
+    <ClInclude Include="Questions.h" />
     <ClInclude Include="Question_13.h" />
     <ClInclude Include="Question_12.h" />
     <ClInclude Include="Question_10.h" />
