@@ -43,6 +43,7 @@
     <ClCompile Include="Question_6.cpp" />
     <ClCompile Include="Question_67.cpp" />
     <ClCompile Include="Question_7.cpp" />
+    <ClCompile Include="Question_79.cpp" />
     <ClCompile Include="Question_8.cpp" />
     <ClCompile Include="Question_9.cpp" />
     <ClCompile Include="Question_12.cpp" />
@@ -76,12 +77,14 @@
     <ClInclude Include="Question_7.h" />
     <ClInclude Include="Question_8.h" />
     <ClInclude Include="Question_9.h" />
+    <ClInclude Include="Question_79.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Question_11_Numbers.txt" />
     <Text Include="Question_13_Numbers.txt" />
     <Text Include="Question_18_Triangle.txt" />
     <Text Include="Question_67_Triangle.txt" />
+    <Text Include="Question_79_Keys.txt" />
     <Text Include="Question_8_Number.txt" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

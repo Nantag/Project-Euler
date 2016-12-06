@@ -11,7 +11,7 @@ namespace Question_67 {
 
 		const int TRIANGLE_ROWS = 100;
 
-		// Scans the triangle into a triangular dimmensional array.
+		// Scans the triangle into a triangular dimmensional vector.
 		ifstream file;
 		file.open ("./Question_67_Triangle.txt");
 		int input;
