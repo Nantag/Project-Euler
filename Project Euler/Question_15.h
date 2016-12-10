@@ -25,6 +25,6 @@ namespace Question_15 {
 //		Solving this computationally is simple, although care must be taken to not overflow.
 //		This solution was not chosen as it not particularly interesting to solve, although it is clearly
 //		the most efficient solution by far.
-// Solution 4 (Dynamic Programming / Inverted Pascal's Triangle):
+// Solution 4 (Inverted Pascal's Triangle):
 //		I've seen this solution when comparing my solution to other answers. It is directly a reverse of 
 //		solution 2. Starting Pascal's triangle from the end point and working upwards. No further comment.
