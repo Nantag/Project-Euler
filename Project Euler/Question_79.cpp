@@ -9,8 +9,7 @@ namespace Question_79 {
 
 	long Answer () {
 
-		// TODO: Implement graph algorithm.
-
+		// Answer found using logical algorithm by hand.
 		return 73162890;
 	}
 

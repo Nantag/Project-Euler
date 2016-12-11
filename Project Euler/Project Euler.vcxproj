@@ -36,6 +36,7 @@
     <ClCompile Include="Question_18.cpp" />
     <ClCompile Include="Question_2.cpp" />
     <ClCompile Include="Question_20.cpp" />
+    <ClCompile Include="Question_21.cpp" />
     <ClCompile Include="Question_3.cpp" />
     <ClCompile Include="Interface.cpp" />
     <ClCompile Include="Question_4.cpp" />
@@ -67,6 +68,7 @@
     <ClInclude Include="Question_17.h" />
     <ClInclude Include="Question_18.h" />
     <ClInclude Include="Question_20.h" />
+    <ClInclude Include="Question_21.h" />
     <ClInclude Include="Question_5.h" />
     <ClInclude Include="Question_3.h" />
     <ClInclude Include="Question_2.h" />

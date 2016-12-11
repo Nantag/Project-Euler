@@ -18,7 +18,9 @@
 #include "Question_17.h"
 #include "Question_18.h"
 #include "Question_20.h"
+#include "Question_21.h"
 #include "Question_67.h"
+#include "Question_79.h"
 
 namespace Questions {
 	unsigned long long Switch (int question) {
@@ -61,8 +63,12 @@ namespace Questions {
 				return Question_18::Answer ();
 			case 20:
 				return Question_20::Answer ();
+			case 21:
+				return Question_21::Answer ();
 			case 67:
 				return Question_67::Answer ();
+			case 79:
+				return Question_79::Answer ();
 			default:
 				return 0;
 		}

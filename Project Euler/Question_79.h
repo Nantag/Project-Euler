@@ -5,7 +5,7 @@ namespace Question_79 {
 	long Answer ();
 }
 
-//		We note that there are no duplicate numbers in the sequence.
+//	We note that there are no duplicate numbers in the sequence.
 //	LOGICAL SOLUTION:
 //		We note 7 is always either absent or the first number, and 0 is either absent or the last number.
 //		From this, we can quickly determine the rest of the passcode by working backwards.
@@ -16,3 +16,4 @@ namespace Question_79 {
 //		2: Run a topological sort on the graph.
 //		3: The resultant graph will be the answer, read backwards from the first (and only) leaf.
 //		Note this algorithm assumes that there are no duplicate numbers in the sequence.
+//		This algorithm will be implemented later.
