@@ -102,6 +102,9 @@
     <ClCompile Include="Question_21.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Question_22.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Question_1.h">
@@ -194,6 +197,9 @@
     <ClInclude Include="Question_21.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Question_22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Question_8_Number.txt">
@@ -212,6 +218,9 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="Question_79_Keys.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\..\..\Desktop\Question_22_Names.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
