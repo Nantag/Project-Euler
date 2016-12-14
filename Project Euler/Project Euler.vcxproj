@@ -84,10 +84,10 @@
     <ClInclude Include="Question_79.h" />
   </ItemGroup>
   <ItemGroup>
-    <Text Include="..\..\..\..\Desktop\Question_22_Names.txt" />
     <Text Include="Question_11_Numbers.txt" />
     <Text Include="Question_13_Numbers.txt" />
     <Text Include="Question_18_Triangle.txt" />
+    <Text Include="Question_22_Names.txt" />
     <Text Include="Question_67_Triangle.txt" />
     <Text Include="Question_79_Keys.txt" />
     <Text Include="Question_8_Number.txt" />

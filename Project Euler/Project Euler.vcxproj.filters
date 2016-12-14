@@ -220,7 +220,7 @@
     <Text Include="Question_79_Keys.txt">
       <Filter>Resource Files</Filter>
     </Text>
-    <Text Include="..\..\..\..\Desktop\Question_22_Names.txt">
+    <Text Include="Question_22_Names.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>

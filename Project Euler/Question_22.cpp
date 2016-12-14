@@ -4,35 +4,33 @@ using namespace std;
 #include <fstream>
 #include <iostream>
 #include <string>
-#include <vector>
+#include <set>
 
 namespace Question_22 {
 
 	long long Answer() {
 
-		int sum = 0;
-		vector<string> Names;
+		set<string> Names;
 
 		// Reads in the names.
 		ifstream file;
 		string input;
 		file.open("./Question_22_Names.txt");
 		while (getline(file, input, ',')) {
-			Names.emplace_back(input);
+			Names.insert(input);
 		}
 		file.close();
 
-		// Sorts the list.
-		sort(Names.begin(), Names.end());
-
 		// Calculates the required value for the question.
-		int NON = Names.size();
-		for (int i = 0; i < NON; i++) {
-			for (char& c : Names[i]) {
+		int index = 0;
+		int sum = 0;
+		for (auto name : Names) {
+			for (char& c : name) {
 				if (!(c == '"')) {
-					sum += ((c - 64) * (i + 1));
+					sum += ((c - 64) * (index + 1));
 				}
 			}
+			index++;
 		}
 		
 		return sum;
