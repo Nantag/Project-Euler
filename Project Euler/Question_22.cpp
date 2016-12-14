@@ -23,7 +23,7 @@ namespace Question_22 {
 
 		// Calculates the required value for the question.
 		int index = 0;
-		int sum = 0;
+		long long sum = 0;
 		for (auto name : Names) {
 			for (char& c : name) {
 				if (!(c == '"')) {

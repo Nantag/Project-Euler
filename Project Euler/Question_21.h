@@ -1,6 +1,6 @@
 namespace Question_21 {
 
-	//
+	// Finds the sum of proper divisors of a number.
 	int Proper_Divisors_Sum (int target);
 
 	// Finds the sum of all amicable numbers below 10,000.

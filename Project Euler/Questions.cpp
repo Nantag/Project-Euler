@@ -20,6 +20,7 @@
 #include "Question_20.h"
 #include "Question_21.h"
 #include "Question_22.h"
+#include "Question_23.h"
 #include "Question_67.h"
 #include "Question_79.h"
 
@@ -68,6 +69,8 @@ namespace Questions {
 				return Question_21::Answer ();
 			case 22:
 				return Question_22::Answer();
+			case 23:
+				return Question_23::Answer();
 			case 67:
 				return Question_67::Answer ();
 			case 79:
