@@ -1,20 +1,20 @@
 using namespace std;
 #include "Question_24.h"
-#include <vector>
+#include <string>
 #include <algorithm>
 
 namespace Question_24 {
 
-	long answer() {
+	unsigned long long Answer() {
 
 		const int PERM_NUM = 1000000;
-		vector<int> Permutations;
+		string Permutor = "0123456789";
 
+		for (int i = 1; i < PERM_NUM; i++) {
+			next_permutation(Permutor.begin(), Permutor.end());
+		}
 
-		sort(Permutations.begin(), Permutations.end());
-
-		return Permutations[PERM_NUM];
-
+		return stoull(Permutor);
 	}
 
 }
