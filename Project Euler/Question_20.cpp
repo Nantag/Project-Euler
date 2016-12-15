@@ -13,7 +13,7 @@ namespace Question_20 {
 
 	int Answer () {
 
-		int FACTORIAL_NUMBER = 100;
+		const int FACTORIAL_NUMBER = 100;
 
 		// Determines 100!.
 		BigInteger sum = 1;

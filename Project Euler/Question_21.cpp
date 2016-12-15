@@ -37,7 +37,7 @@ namespace Question_21 {
 
 	int Answer () {
 
-		int AMICABLE_UP_TO = 10000;
+		const int AMICABLE_UP_TO = 10000;
 
 		int sum = 0;
 		for (int i = 2; i < AMICABLE_UP_TO; i++) {
