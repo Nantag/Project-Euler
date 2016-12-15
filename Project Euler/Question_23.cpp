@@ -38,31 +38,28 @@ namespace Question_23 {
 
 	long Answer() {
 
-		int SOA_LIMIT = 20162;
-		vector<BitSet> Number(SOA_LIMIT);
+		const int SOA_LIMIT = 20162;
+		int sum = 0;
+		vector<int> AbundantNumbers;
+		vector<bool> SOA(SOA_LIMIT);
 
-		// Checks if all numbers up to 20,161 are abundant.
-		for (int i = 12; i <= 20161; i++) {
-			if (!(Number[i].Abundant) && Proper_Divisors_Sum(i) > i) {
-				Number[i].Abundant = 1;
-				for (int j = (i * 2); j < SOA_LIMIT; j += i) {
-					Number[j].Abundant = 1;
-					Number[j].SOA = 1;
+		// Finds all abundant numbers below the limit, synchronously finding all numbers expressible by their sum.
+		for (int i = 1; i < SOA_LIMIT; i++) {
+			if (Proper_Divisors_Sum(i) > i) {
+				AbundantNumbers.emplace_back(i);
+				for (auto j : AbundantNumbers) {
+					if ((i + j) < SOA_LIMIT) {
+						SOA[i + j] = 1;
+					} else {
+						break;
+					}
 				}
 			}
 		}
 
-		// Checks for all numbers up to 20,161 that can be written as sums of abundant numbers.
-		for (int i = 24; i < SOA_LIMIT; i++) {
-			if (!(Number[i].SOA)) {
-				// TODO: Implement algorithm to check for sums.
-			}
-		}
-
-		// Sums all number which are sums of abundants.
-		long sum = 0;
-		for (int i = 24; i < SOA_LIMIT; i++) {
-			if (Number[i].SOA) {
+		// Sums up all numbers not expressible by the sum of two abundant numbers.
+		for (int i = 0; i < SOA_LIMIT; i++) {
+			if (!SOA[i]) {
 				sum += i;
 			}
 		}
