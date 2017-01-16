@@ -22,9 +22,9 @@ long long Question_8::Answer () {
 
 	// Brute-forces through all sequences.
 	long long gsf = 0;
-	for (int i = 0; i < NUMBER_MAXIMUM_TARGET; i++) {
+	for (int i = 0; i < NUMBER_MAXIMUM_TARGET; ++i) {
 		long long target = 1;
-		for (int j = i; j < i + TARGET_ADJACENTS; j++) {
+		for (int j = i; j < i + TARGET_ADJACENTS; ++j) {
 			target *= arr[j];
 		}
 		if (target > gsf) {

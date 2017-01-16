@@ -17,7 +17,7 @@ namespace Question_20 {
 
 		// Determines 100!.
 		BigInteger sum = 1;
-		for (int i = 1; i <= FACTORIAL_NUMBER; i++) {
+		for (int i = 1; i <= FACTORIAL_NUMBER; ++i) {
 			sum *= i;
 		}
 

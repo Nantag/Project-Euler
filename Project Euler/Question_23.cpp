@@ -12,7 +12,7 @@ namespace Question_23 {
 		int power = 0;
 
 		// Finds the prime factors of the target.
-		for (int i = 2; target > 1; i++) {
+		for (int i = 2; target > 1; ++i) {
 			while (!(target % i)) {
 				target /= i;
 				power++;
@@ -44,7 +44,7 @@ namespace Question_23 {
 		vector<bool> SOA(SOA_LIMIT);
 
 		// Finds all abundant numbers below the limit, synchronously finding all numbers expressible by their sum.
-		for (int i = 1; i < SOA_LIMIT; i++) {
+		for (int i = 1; i < SOA_LIMIT; ++i) {
 			if (Proper_Divisors_Sum(i) > i) {
 				AbundantNumbers.emplace_back(i);
 				for (auto j : AbundantNumbers) {
@@ -58,7 +58,7 @@ namespace Question_23 {
 		}
 
 		// Sums up all numbers not expressible by the sum of two abundant numbers.
-		for (int i = 0; i < SOA_LIMIT; i++) {
+		for (int i = 0; i < SOA_LIMIT; ++i) {
 			if (!SOA[i]) {
 				sum += i;
 			}

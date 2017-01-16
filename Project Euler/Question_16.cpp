@@ -22,7 +22,7 @@ namespace Question_16 {
 
 		// Determines 2^1000.
 		BigInteger sum = POWER_NUMBER;
-		for (int i = 0; i < (TO_POWER - 1); i++) {
+		for (int i = 0; i < (TO_POWER - 1); ++i) {
 			sum *= POWER_NUMBER;
 		}
 

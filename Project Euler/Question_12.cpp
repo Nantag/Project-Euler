@@ -6,7 +6,7 @@ namespace Question_12 {
 
 	int Count_Divisors (int target) {
 		int target_divisors = 0;
-		for (int n = 1; n < sqrt (target); n++) {
+		for (int n = 1; n < sqrt (target); ++n) {
 			if (!(target % n)) {
 				target_divisors++;
 				if (n != (target / n)) {
@@ -22,7 +22,7 @@ namespace Question_12 {
 		const int MINIMUM_DIVISORS_WANTED = 501;
 
 		// See header for formula.
-		for (int n = 1;; n++) {
+		for (int n = 1;; ++n) {
 			int divisors = 0;
 			if (n % 2) {
 				divisors = Count_Divisors (n) * Count_Divisors ((n + 1) / 2);

@@ -11,7 +11,7 @@ namespace Question_21 {
 		int power = 0;
 
 		// Finds the prime factors of the target.
-		for (int i = 2;target > 1; i++) {
+		for (int i = 2;target > 1; ++i) {
 			while (!(target % i)) {
 				target /= i;
 				power++;
@@ -40,7 +40,7 @@ namespace Question_21 {
 		const int AMICABLE_UP_TO = 10000;
 
 		int sum = 0;
-		for (int i = 2; i < AMICABLE_UP_TO; i++) {
+		for (int i = 2; i < AMICABLE_UP_TO; ++i) {
 
 			// Checks if a given number is amicable.
 			int a = Proper_Divisors_Sum (i);

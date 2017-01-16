@@ -15,9 +15,9 @@ int Question_11::Answer () {
 	ifstream file;
 	file.open ("./Question_11_Numbers.txt");
 	vector <vector <int>> arr (GRID_HEIGHT);
-	for (int i = 0; i < GRID_HEIGHT; i++) {
+	for (int i = 0; i < GRID_HEIGHT; ++i) {
 		arr[i] = vector <int> (GRID_WIDTH);
-		for (int j = 0, k = 0; j < GRID_WIDTH; j++) {
+		for (int j = 0, k = 0; j < GRID_WIDTH; ++j) {
 			file >> k;
 			arr[i][j] = k;
 		}
@@ -26,9 +26,9 @@ int Question_11::Answer () {
 
 	// Brute-forces through all possible products.
 	int gsf = 0;
-	for (int i = 0; i < GRID_HEIGHT; i++) {
-		for (int j = 0; j < GRID_WIDTH; j++) {
-			for (int k = 0; k < 4; k++) {
+	for (int i = 0; i < GRID_HEIGHT; ++i) {
+		for (int j = 0; j < GRID_WIDTH; ++j) {
+			for (int k = 0; k < 4; ++k) {
 				int target = 0;
 
 				if (k == 0 && j <= EDGE_ROW_CHECK) {

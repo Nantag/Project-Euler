@@ -11,7 +11,7 @@ int Question_3::Answer () {
 		if (!(target % prime)) {
 			target /= prime;
 		} else {
-			prime++;
+			++prime;
 		}
 	}
 

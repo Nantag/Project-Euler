@@ -35,7 +35,7 @@ namespace Question_14 {
 		vector <long long> previously_seen ((int) MAX_NUMBER);
 		long long gsf = 1;
 		int gsf_i = 1;
-		for (int i = 1; i < MAX_NUMBER; i++) {
+		for (int i = 1; i < MAX_NUMBER; ++i) {
 			long long next_seq = Collatz (i, previously_seen, MAX_NUMBER);
 			if (next_seq > gsf) {
 				gsf = next_seq;
